@@ -20,7 +20,7 @@ echo "exec spectrwm" >> ~/.xinitrc
 
 sudo apt install arandr
 
-sudo apt install vim git
+sudo apt install vim
 
 git clone https://github.com/linuxdabbler/personal-dot-files
 
@@ -28,11 +28,13 @@ cd personal-dot-files
 
 cat config/Xresources >> ~/.Xdefaults
 
-git clone https://github.com/linuxdabbler/debian-dialog-install-script
+cd
+
+git clone https://github.com/Radu25/Dialog.sh
 
 ls
 
-cd debian-dialog-install-script
+cd Dialog
 
 ls
 
@@ -43,6 +45,8 @@ sleep 10
 chmod +x dialog.sh
 
 sudo ./dialog.sh
+
+cd
 
 sudo apt-get install task-gnome-desktop
 

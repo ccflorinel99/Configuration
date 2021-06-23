@@ -46,7 +46,7 @@ cp dialog.sh ~
 
 chmod +x ~/dialog.sh
 
-echo "You need to write 'sudo ~/dialog.sh' then another window will appear and it will ask you to choose what do you want to be installed in your computer. After you finish, type 'sudo apt-get install task-gnome-desktop' and after that 'sudo reboot' to reboot your system. And you will have a working computer with Debian on it"
+echo "Mai trebuie sa scrii 'sudo ~/dialog.sh' si iti va aparea o fereastra noua care te va lasa sa alegi ce vrei sa fie instalat in laptopul/calculatorul tau. Dupa ce termini, scire 'sudo apt-get install task-gnome-desktop' ca sa poti sa ai si tu un desktop, iar apoi, ultima comanda pe care trebuie sa o scrii este 'sudo reboot' ca sa dai restart la calculator sau o poti face asa cum stii tu. Dupa ce faci restart, o sa ai un calculator cu Debian instalat pe el. Spor si toate cele bune ;)"
 
 sleep 15
 

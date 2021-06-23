@@ -38,10 +38,6 @@ cd Dialog
 
 ls
 
-echo "The next window that appears will be so that you can choose what do you want to be installed in your computer. Please choose wisely"
-
-sleep 10
-
 cp dialog.sh ~
 
 chmod +x ~/dialog.sh

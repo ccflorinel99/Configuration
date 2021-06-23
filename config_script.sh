@@ -46,9 +46,6 @@ cp dialog.sh ~
 
 chmod +x ~/dialog.sh
 
-sudo ~/dialog.sh
-
-cd
 echo "You need to write 'sudo ~/dialog.sh' then another window will appear and it will ask you to choose what do you want to be installed in your computer. After you finish, type 'sudo apt-get install task-gnome-desktop' and after that 'sudo reboot' to reboot your system. And you will have a working computer with Debian on it"
 
 sleep 15

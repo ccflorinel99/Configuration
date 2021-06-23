@@ -42,9 +42,11 @@ echo "The next window that appears will be so that you can choose what do you wa
 
 sleep 10
 
-chmod +x dialog.sh
+cp dialog.sh ~
 
-sudo ./dialog.sh
+chmod +x ~/dialog.sh
+
+sudo ~/dialog.sh
 
 cd
 
